@@ -1,6 +1,8 @@
 package com.aflabs.hubot.entity;
 
-public class AnimateEntity extends SubjectEntity {
+import com.aflabs.hubot.entity.behavior.IAnimateEntity;
+
+public class AnimateEntity extends SubjectEntity implements IAnimateEntity{
 
 	public AnimateEntity() {
 		// TODO Auto-generated constructor stub
@@ -9,6 +11,18 @@ public class AnimateEntity extends SubjectEntity {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+	}
+
+	@Override
+	public void locomote() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void feeling() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
