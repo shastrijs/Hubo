@@ -23,7 +23,7 @@ public class App {
     		prop.load(input);
  
                 //get the property value and print it out
-                System.out.println(prop.getProperty("dbpassword"));
+                System.out.println(prop.getProperty("sophos.ipaddress"));
  
     	} catch (IOException ex) {
     		ex.printStackTrace();
