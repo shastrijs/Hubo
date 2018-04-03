@@ -1,10 +1,10 @@
 package com.aflabs.hubot.entity;
 
-import com.aflabs.hubot.entity.behavior.IAnimateEntity;
+import com.aflabs.hubot.entity.behavior.IAnimateSubjectEntity;
 
-public class AnimateEntity extends SubjectEntity implements IAnimateEntity{
+public class AnimateSubjectEntity extends SubjectEntity implements IAnimateSubjectEntity{
 
-	public AnimateEntity() {
+	public AnimateSubjectEntity() {
 		// TODO Auto-generated constructor stub
 	}
 

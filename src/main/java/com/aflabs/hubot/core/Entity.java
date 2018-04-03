@@ -2,27 +2,26 @@ package com.aflabs.hubot.core;
 
 import com.aflabs.hubot.core.behavior.IEntity;
 
-/**
- * @author sjagarlapudi1
- *
- */
-public class Entity implements IEntity{
+public class Entity extends Supreme implements IEntity{	
+
+	public Entity() {}
 	
-	String name;
-
-	/**
-	 * 
-	 */
-	public Entity() {
-		// TODO Auto-generated constructor stub
+	public Entity(String name, String description) {	
+		super(name, description);
+	}
+	
+	public String toString() {
+		return "Entity: " + super.toString();
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Entity en = new Entity("abc",null);		
+		System.out.println(en.toString());
 	}
 
+	@Override
+	public void doEvent(Event event) {
+		// TODO Auto-generated method stub
+		
+	}
 }

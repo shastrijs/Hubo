@@ -1,10 +1,8 @@
 package com.aflabs.hubot.entity;
 
-public class Hubot extends AnimateSubjectEntity {
-	
-	boolean gender;
+public class InanimateSubjectEntity extends SubjectEntity {
 
-	public Hubot() {
+	public InanimateSubjectEntity() {
 		// TODO Auto-generated constructor stub
 	}
 

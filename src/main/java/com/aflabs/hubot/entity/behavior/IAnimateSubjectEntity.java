@@ -1,6 +1,6 @@
 package com.aflabs.hubot.entity.behavior;
 
-public interface IAnimateEntity extends ISubjectEntity {
+public interface IAnimateSubjectEntity extends ISubjectEntity {
 	
 	void locomote();
 	void feeling();

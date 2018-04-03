@@ -6,5 +6,6 @@ public interface ISubjectEntity extends IEntity {
 	
 	void birth();
 	void death();
+	void burnEnergy();
 
 }

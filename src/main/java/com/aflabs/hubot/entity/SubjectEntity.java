@@ -32,4 +32,10 @@ public class SubjectEntity extends Entity implements ISubjectEntity{
 		
 	}
 
+	@Override
+	public void burnEnergy() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

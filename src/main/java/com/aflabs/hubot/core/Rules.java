@@ -1,21 +1,17 @@
-/**
- * 
- */
 package com.aflabs.hubot.core;
 
 import com.aflabs.hubot.core.behavior.IRules;
 
-/**
- * @author sjagarlapudi1
- *
- */
-public class Rules implements IRules{
+public class Rules extends Supreme implements IRules{
 
-	/**
-	 * 
-	 */
-	public Rules() {
-		// TODO Auto-generated constructor stub
+	public Rules() {}
+	
+	public Rules (String name, String description) {	
+		super(name, description);
+	}
+	
+	public String toString() {
+		return "RuleSet: " + super.toString();
 	}
 
 }

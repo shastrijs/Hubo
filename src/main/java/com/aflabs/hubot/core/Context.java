@@ -5,25 +5,20 @@ package com.aflabs.hubot.core;
 
 import com.aflabs.hubot.core.behavior.IContext;
 
-/**
- * @author sjagarlapudi1
- *
- */
-public class Context implements IContext{
-
-	/**
-	 * 
-	 */
-	public Context() {
-		// TODO Auto-generated constructor stub
+public class Context extends Supreme implements IContext{
+	
+	public Context() {}
+	
+	public Context (String name, String description) {	
+		super(name, description);
+	}
+	
+	public String toString() {
+		return "Context: " + super.toString();
 	}
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 	}
-
 }
