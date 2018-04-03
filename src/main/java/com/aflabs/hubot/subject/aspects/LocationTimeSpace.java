@@ -1,8 +1,13 @@
 package com.aflabs.hubot.subject.aspects;
 
-public class Location {
+public class LocationTimeSpace {
+	
+	long timeCoordinate;
+	double XCoordinate;
+	double YCoordinate;
+	double ZCoordinate;
 
-	public Location() {
+	public LocationTimeSpace() {
 		// TODO Auto-generated constructor stub
 	}
 

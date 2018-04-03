@@ -1,6 +1,11 @@
 package com.aflabs.hubot.subject.aspects;
 
+import com.aflabs.hubot.entity.SubjectEntity;
+
 public class Parents {
+	
+	SubjectEntity father;
+	SubjectEntity mother;
 
 	public Parents() {
 		// TODO Auto-generated constructor stub

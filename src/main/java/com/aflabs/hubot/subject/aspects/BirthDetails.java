@@ -1,11 +1,10 @@
 package com.aflabs.hubot.subject.aspects;
 
-public class BirthDetails {
+public class BirthDetails {	
 	
-	long birthTS;
 	Parents parents;
 	DNA DNA;
-	Location birthLocation;
+	LocationTimeSpace birthCoordinates;
 	
 	public BirthDetails() {
 		// TODO Auto-generated constructor stub

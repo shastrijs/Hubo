@@ -3,11 +3,13 @@
  */
 package com.aflabs.hubot.core;
 
+import com.aflabs.hubot.core.behavior.IContext;
+
 /**
  * @author sjagarlapudi1
  *
  */
-public class Context {
+public class Context implements IContext{
 
 	/**
 	 * 

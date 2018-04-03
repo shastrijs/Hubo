@@ -1,10 +1,12 @@
 package com.aflabs.hubot.core;
 
+import com.aflabs.hubot.core.behavior.IEntity;
+
 /**
  * @author sjagarlapudi1
  *
  */
-public class Entity {
+public class Entity implements IEntity{
 	
 	String name;
 
