@@ -12,7 +12,7 @@ public class SubjectEntity extends Entity implements ISubjectEntity{
 	
 	boolean living = true;
 	BirthDetails birthDetails;
-	SubjectVitals[] subjectVitals; // Dynamic vitals that impact and are impacted by Feelings, Instincts, 
+	SubjectVitals[] vitals; // Dynamic vitals that impact and are impacted by Feelings, Instincts, 
 	Instinct[] instincts; //Acquired or habitual ones from empirical experience/ UniversalEmperic 	
 	Feeling[] feelings;
 

@@ -4,15 +4,24 @@ public class BirthDetails {
 	
 	Parents parents;	
 	LocationTimeSpace birthCoordinates;
-	SubjectVitals[] birthTimeSubjectVitals;//HeartRate, 
+	SubjectVitals[] birthTimeVitals;//HeartRate, 
 	Instinct[] birthTimeInstincts; 
-	//Survival (Sustain HeartRate and vitals in general), 
-	//Perception [inputs from outside] (of threats), 
-	//Expression [outputs],
-	//Abstraction
+	//Survival [Fear, Anger, Sustain HeartRate and vitals in general, ]
+	//Perception [inputs from non-self] (of threats), 
+	//Expression [outputs from Self, play/imitation/constructiveness, love/affection, shyness/sociability/Relationships]
+	//Abstraction [Used for both Perception/Expression, generalization, Specificity]
+	//Reflection [modesty/sympathy]
+	//Adaptation [Exploration/curiosity/secretiveness(?)]
+	//Comparison [Understanding <,> & =, jealousy/envy]
+	//Ego/Feeling of Self [acquisitiveness/rivalry]  
+	//Creativity [More than permutations and combinations, creating out of thin air, Out of box thinking]
+	 
+	//Thinking, Planning, Sales and Decision-making
+	
+
 	
 	public BirthDetails() {
-		// TODO Auto-generated constructor stub
+		// TODO Auto-generated constructor stub, 
 	}
 
 	public static void main(String[] args) {
