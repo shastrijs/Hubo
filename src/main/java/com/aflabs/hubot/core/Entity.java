@@ -1,17 +1,20 @@
 package com.aflabs.hubot.core;
 
 import com.aflabs.hubot.core.behavior.IEntity;
+import com.aflabs.hubot.subject.aspects.DNA;
 
-public class Entity extends Supreme implements IEntity{	
-
+public class Entity extends SuperEntity implements IEntity{	
+	
+	protected DNA dna;
+	
 	public Entity() {}
 	
 	public Entity(String name, String description) {	
-		super(name, description);
+		super(name, description);		
 	}
 	
 	public String toString() {
-		return "Entity: " + super.toString();
+		return "Entity: " + super.toString() + dna.toString();
 	}
 
 	public static void main(String[] args) {

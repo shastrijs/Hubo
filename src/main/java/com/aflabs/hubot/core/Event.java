@@ -2,7 +2,7 @@ package com.aflabs.hubot.core;
 
 import com.aflabs.hubot.core.behavior.IEvent;
 
-public class Event extends Supreme implements IEvent{	
+public class Event extends SuperEntity implements IEvent{	
 	
 	Event[] subEvents;
 	Event[] causes;

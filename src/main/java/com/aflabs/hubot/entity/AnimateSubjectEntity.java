@@ -3,7 +3,7 @@ package com.aflabs.hubot.entity;
 import com.aflabs.hubot.entity.behavior.IAnimateSubjectEntity;
 
 public class AnimateSubjectEntity extends SubjectEntity implements IAnimateSubjectEntity{
-
+	
 	public AnimateSubjectEntity() {}
 
 	public AnimateSubjectEntity(String name, String description) {	

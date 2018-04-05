@@ -2,7 +2,7 @@ package com.aflabs.hubot.core;
 
 import com.aflabs.hubot.core.behavior.IRules;
 
-public class Rules extends Supreme implements IRules{
+public class Rules extends SuperEntity implements IRules{
 
 	public Rules() {}
 	

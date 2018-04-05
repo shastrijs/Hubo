@@ -5,7 +5,7 @@ package com.aflabs.hubot.core;
 
 import com.aflabs.hubot.core.behavior.IContext;
 
-public class Context extends Supreme implements IContext{
+public class Context extends SuperEntity implements IContext{
 	
 	public Context() {}
 	

@@ -1,13 +1,13 @@
 package com.aflabs.hubot.core;
 
-public class Supreme {	
+public class SuperEntity {	
 	String name;
 	String description;
 
-	public Supreme() {		
+	public SuperEntity() {		
 	}
 	
-	public Supreme(String name, String description) {
+	public SuperEntity(String name, String description) {
 		this.name = name;
 		this.description = description;
 	}
