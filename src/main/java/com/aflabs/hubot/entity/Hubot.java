@@ -4,13 +4,19 @@ public class Hubot extends AnimateSubjectEntity {
 	
 	boolean gender;
 
-	public Hubot() {
-		// TODO Auto-generated constructor stub
+	public Hubot() {}
+
+	public Hubot(String name, String description) {	
+		super(name, description);
+	}
+	
+	public String toString() {
+		return "Hubot: [" + super.toString()+ "]";
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Hubot hubot = new Hubot("H1", "Adam");
+		System.out.println(hubot.toString());
 	}
 
 }

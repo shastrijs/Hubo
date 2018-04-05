@@ -4,19 +4,24 @@ import com.aflabs.hubot.entity.behavior.IAnimateSubjectEntity;
 
 public class AnimateSubjectEntity extends SubjectEntity implements IAnimateSubjectEntity{
 
-	public AnimateSubjectEntity() {
-		// TODO Auto-generated constructor stub
+	public AnimateSubjectEntity() {}
+
+	public AnimateSubjectEntity(String name, String description) {	
+		super(name, description);
+	}
+	
+	public String toString() {
+		return "AnimateSubjectEntity: [" + super.toString()+ "]";
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		AnimateSubjectEntity ase = new AnimateSubjectEntity("ASE1", "Desc");
+		System.out.println(ase.toString());
 	}
 
 	@Override
 	public void locomote() {
-		// TODO Auto-generated method stub
-		
+		// TODO Auto-generated method stub		
 	}
 
 	@Override

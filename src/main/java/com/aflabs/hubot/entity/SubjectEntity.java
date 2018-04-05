@@ -11,13 +11,19 @@ public class SubjectEntity extends Entity implements ISubjectEntity{
 	BirthDetails birthDetails;
 	Instinct[] instincts;
 
-	public SubjectEntity() {
-		// TODO Auto-generated constructor stub
+	public SubjectEntity() {}
+	
+	public SubjectEntity(String name, String description) {	
+		super(name, description);
+	}
+	
+	public String toString() {
+		return "SubjectEntity: [" + super.toString()+ "]";
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		SubjectEntity subjectEntity = new SubjectEntity("Name", "Desc");
+		System.out.println(subjectEntity.toString());
 	}
 
 	@Override

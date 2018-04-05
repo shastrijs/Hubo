@@ -15,7 +15,7 @@ public class Entity extends Supreme implements IEntity{
 	}
 
 	public static void main(String[] args) {
-		Entity en = new Entity("abcd",null);		
+		Entity en = new Entity("abcde",null);		
 		System.out.println(en.toString());
 	}
 
