@@ -15,6 +15,10 @@ public class SubjectEntity extends Entity implements ISubjectEntity{
 	SubjectVitals[] vitals; // Dynamic vitals that impact and are impacted by Feelings, Instincts, 
 	Instinct[] instincts; //Acquired or habitual ones from empirical experience/ UniversalEmperic 	
 	Feeling[] feelings;
+	
+	//Freewill
+	//Measuring instinct
+	//Top down and Bottoms up instincts
 
 	public SubjectEntity() {}
 	

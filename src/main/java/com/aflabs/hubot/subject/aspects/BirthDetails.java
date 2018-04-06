@@ -16,7 +16,7 @@ public class BirthDetails {
 	//Ego/Feeling of Self [acquisitiveness/rivalry]  
 	//Creativity [More than permutations and combinations, creating out of thin air, Out of box thinking]
 	 
-	//Thinking, Planning, Sales and Decision-making
+	//Thinking, Planning, Sales and Decision-making, Risk taking
 	
 
 	
