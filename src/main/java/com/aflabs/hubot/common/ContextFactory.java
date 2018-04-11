@@ -7,14 +7,14 @@ import com.aflabs.hubot.core.Context;
 
 public class ContextFactory {
 	
-	public static Context createDomainContext(String contextType)
+	public static Context createDomainContext(String contextType, String name, String desc)
 	  {
 	    if ( contextType.equals("SubjectContext") )
-	      return new SubjectContext("SC", "SC Desc");
+	      return new SubjectContext(name, desc);
 	    else if ( contextType.equals("ObjectContext") )
-	      return new ObjectContext("OC", "OC Desc");
+	      return new ObjectContext(name, desc);
 	    else if ( contextType.equals("OmnijectContext") )
-		      return new OmnijectContext("OMC", "OMC Desc");
+		      return new OmnijectContext(name, desc);
 
 	    return null;
 	  }

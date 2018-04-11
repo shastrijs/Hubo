@@ -13,13 +13,13 @@ public class ContextFactoryClient {
 	
 	  public static void main(String[] args)
 	  {	    
-	    context = ContextFactory.createDomainContext("SubjectContext");	    
+	    context = ContextFactory.createDomainContext("SubjectContext", "SC", "SC Desc");	    
 	    logger.info(context);	   
 	    
-	    context = ContextFactory.createDomainContext("ObjectContext");	    
+	    context = ContextFactory.createDomainContext("ObjectContext", "OC", null);	    
 	    logger.info(context);
 	    
-	    context = ContextFactory.createDomainContext("OmnijectContext");	    
+	    context = ContextFactory.createDomainContext("OmnijectContext", "OMC", "OMC Desc");	    
 	    logger.info(context);
 	  }
 }
