@@ -1,4 +1,4 @@
-package com.aflabs.afbot.core.utility;
+package com.aflabs.hubot.core.teritiary;
 
 public class Where {
 	

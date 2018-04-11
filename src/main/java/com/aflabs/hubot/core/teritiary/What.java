@@ -1,6 +1,9 @@
-package com.aflabs.afbot.core.utility;
+package com.aflabs.hubot.core.teritiary;
 
 import java.util.Collection;
+
+import com.aflabs.afbot.core.utility.Actor;
+import com.aflabs.afbot.core.utility.HowMuch;
 
 public class What {
 
