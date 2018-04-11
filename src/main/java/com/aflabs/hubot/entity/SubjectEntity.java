@@ -1,6 +1,9 @@
 package com.aflabs.hubot.entity;
 
+import org.apache.log4j.Logger;
+
 import com.aflabs.hubot.core.Entity;
+import com.aflabs.hubot.core.Event;
 import com.aflabs.hubot.entity.behavior.ISubjectEntity;
 import com.aflabs.hubot.subject.aspects.BirthDetails;
 import com.aflabs.hubot.subject.aspects.Feeling;
@@ -19,6 +22,8 @@ public class SubjectEntity extends Entity implements ISubjectEntity{
 	//Freewill
 	//Measuring instinct
 	//Top down and Bottoms up instincts
+	
+	private static Logger logger = Logger.getLogger("com.aflabs.hubot.entity.SubjectEntity");
 
 	public SubjectEntity() {}
 	
@@ -34,7 +39,7 @@ public class SubjectEntity extends Entity implements ISubjectEntity{
 
 	public static void main(String[] args) {
 		SubjectEntity subjectEntity = new SubjectEntity("Name", "Desc");
-		System.out.println(subjectEntity.toString());		
+		logger.info(subjectEntity.toString());		
 	}
 
 	@Override
@@ -52,6 +57,11 @@ public class SubjectEntity extends Entity implements ISubjectEntity{
 	@Override
 	public void burnEnergy() {
 		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void doEvent(Event event) {
 		
 	}
 

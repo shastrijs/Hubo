@@ -5,3 +5,7 @@
 2018-04-02 16:44:37 INFO  PropFileReader:20 - Loading Props file : object.properties
 2018-04-02 16:49:45 INFO  PropFileReader:20 - Loading Props file : object.properties
 2018-04-03 13:49:43 INFO  PropFileReader:20 - Loading Props file : object.properties
+2018-04-10 12:56:17 INFO  PropFileReader:20 - Loading Props file : object.properties
+2018-04-10 12:57:03 INFO  SubjectEntity:42 - SubjectEntity: [Entity: [Name, Desc][1-600-]]
+2018-04-11 13:23:15 INFO  SubjectEntity:42 - SubjectEntity: [Entity: [Name, Desc][1-600-]]
+2018-04-11 13:23:26 INFO  SubjectEntity:42 - SubjectEntity: [Entity: [Name, Desc][1-600-]]

@@ -20,5 +20,9 @@ public class DNAGenerator {
 	public static DNA generateObjectDNA() {
 		return new DNA();
 	}
+	
+	public static DNA generateOmnijectDNA() {
+		return new DNA();
+	}
 
 }
