@@ -1,4 +1,4 @@
-package com.aflabs.afbot.core.action;
+package com.aflabs.hubot.arithmatic.action;
 
 public class InstinctAction {
 
