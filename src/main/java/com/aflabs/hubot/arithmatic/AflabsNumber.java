@@ -1,4 +1,4 @@
-package com.aflabs.afbot.arithmatic;
+package com.aflabs.hubot.arithmatic;
 
 import java.util.ArrayList;
 import java.util.StringTokenizer;

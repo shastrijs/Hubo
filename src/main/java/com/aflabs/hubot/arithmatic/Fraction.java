@@ -1,4 +1,4 @@
-package com.aflabs.afbot.arithmatic;
+package com.aflabs.hubot.arithmatic;
 
 public class Fraction extends Number {
 
