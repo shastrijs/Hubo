@@ -1,5 +1,7 @@
 package com.aflabs.hubot.entity;
 
+import org.apache.log4j.Logger;
+
 import com.aflabs.hubot.core.Entity;
 import com.aflabs.hubot.core.Event;
 import com.aflabs.hubot.utility.DNAGenerator;
@@ -8,6 +10,8 @@ public class ObjectEntity extends Entity {
 	
 	boolean living = false;
 	//Measurable attributes - part of Object DNA?
+	
+	private static Logger logger = Logger.getLogger("com.aflabs.hubot.entity.ObjectEntity");
 
 	public ObjectEntity() {}
 	
@@ -23,7 +27,7 @@ public class ObjectEntity extends Entity {
 
 	public static void main(String[] args) {
 		ObjectEntity objectEntity = new ObjectEntity("Name", "Desc");
-		System.out.println(objectEntity.toString());		
+		logger.info(objectEntity.toString());		
 	}
 	
 	@Override

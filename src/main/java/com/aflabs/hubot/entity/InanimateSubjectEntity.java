@@ -1,14 +1,24 @@
 package com.aflabs.hubot.entity;
 
-public class InanimateSubjectEntity extends SubjectEntity {
+import org.apache.log4j.Logger;
 
-	public InanimateSubjectEntity() {
-		// TODO Auto-generated constructor stub
+public class InanimateSubjectEntity extends SubjectEntity {
+	
+	private static Logger logger = Logger.getLogger("com.aflabs.hubot.entity.InanimateSubjectEntity");
+
+	public InanimateSubjectEntity() {}
+
+	public InanimateSubjectEntity(String name, String description) {	
+		super(name, description);
+	}
+	
+	public String toString() {
+		return "InanimateSubjectEntity: [" + super.toString()+ "]";
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		InanimateSubjectEntity ise = new InanimateSubjectEntity("ISE1", "Desc");
+		logger.info(ise.toString());
 	}
 
 }

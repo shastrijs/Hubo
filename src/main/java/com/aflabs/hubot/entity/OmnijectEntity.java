@@ -1,10 +1,14 @@
 package com.aflabs.hubot.entity;
 
+import org.apache.log4j.Logger;
+
 import com.aflabs.hubot.core.Entity;
 import com.aflabs.hubot.core.Event;
 import com.aflabs.hubot.utility.DNAGenerator;
 
 public class OmnijectEntity extends Entity {
+	
+	private static Logger logger = Logger.getLogger("com.aflabs.hubot.entity.OmnijectEntity");
 
 	public OmnijectEntity() {}
 
@@ -20,7 +24,7 @@ public class OmnijectEntity extends Entity {
 
 	public static void main(String[] args) {
 		OmnijectEntity omnijectEntity = new OmnijectEntity("Name", "Desc");
-		System.out.println(omnijectEntity.toString());		
+		logger.info(omnijectEntity.toString());		
 	}
 	
 	@Override

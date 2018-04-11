@@ -1,8 +1,12 @@
 package com.aflabs.hubot.entity;
 
+import org.apache.log4j.Logger;
+
 import com.aflabs.hubot.entity.behavior.IAnimateSubjectEntity;
 
 public class AnimateSubjectEntity extends SubjectEntity implements IAnimateSubjectEntity{
+	
+	private static Logger logger = Logger.getLogger("com.aflabs.hubot.entity.AnimateSubjectEntity");
 	
 	public AnimateSubjectEntity() {}
 
@@ -16,7 +20,7 @@ public class AnimateSubjectEntity extends SubjectEntity implements IAnimateSubje
 
 	public static void main(String[] args) {
 		AnimateSubjectEntity ase = new AnimateSubjectEntity("ASE1", "Desc");
-		System.out.println(ase.toString());
+		logger.info(ase.toString());
 	}
 
 	@Override
