@@ -1,16 +1,28 @@
 package com.aflabs.hubot.context;
 
+import org.apache.log4j.Logger;
+
+import com.aflabs.hubot.context.behavior.IOmnijectContext;
 import com.aflabs.hubot.core.Context;
 
-public class OmnijectContext extends Context {
+public class OmnijectContext extends Context implements IOmnijectContext{
+	
+	private static Logger logger = Logger.getLogger("com.aflabs.hubot.context.OmnijectContext");
 
-	public OmnijectContext() {
-		// TODO Auto-generated constructor stub
+	public OmnijectContext() {}
+
+	public OmnijectContext(String name, String description) {
+		super(name, description);
+	}
+	
+	@Override
+	public String toString() {
+		return "OmnijectContext: [" + super.toString()+ "]";
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		OmnijectContext omnijectContext = new OmnijectContext("SC1", "SC Desc");
+		logger.info(omnijectContext.toString());	
 	}
 
 }

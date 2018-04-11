@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.aflabs.hubot.core;
 
 import com.aflabs.hubot.core.behavior.IContext;
@@ -18,7 +15,6 @@ public class Context extends SuperEntity implements IContext{
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 }

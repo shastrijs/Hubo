@@ -1,16 +1,28 @@
 package com.aflabs.hubot.context;
 
+import org.apache.log4j.Logger;
+
+import com.aflabs.hubot.context.behavior.IObjectContext;
 import com.aflabs.hubot.core.Context;
 
-public class ObjectContext extends Context {
+public class ObjectContext extends Context implements IObjectContext{
+	
+	private static Logger logger = Logger.getLogger("com.aflabs.hubot.context.ObjectContext");
 
-	public ObjectContext() {
-		// TODO Auto-generated constructor stub
+	public ObjectContext() {}
+
+	public ObjectContext(String name, String description) {
+		super(name, description);
+	}
+	
+	@Override
+	public String toString() {
+		return "ObjectContext: [" + super.toString()+ "]";
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		ObjectContext objectContext = new ObjectContext("SC1", "SC Desc");
+		logger.info(objectContext.toString());	
 	}
 
 }
