@@ -1,4 +1,4 @@
-package com.aflabs.afbot.core;
+package com.aflabs.hubot.core.secondary;
 
 import java.util.ArrayList;
 import java.util.List;

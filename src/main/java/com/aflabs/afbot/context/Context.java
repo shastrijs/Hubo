@@ -6,8 +6,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import com.aflabs.afbot.core.Challenge;
-import com.aflabs.afbot.core.Model;
+import com.aflabs.hubot.core.secondary.Challenge;
+import com.aflabs.hubot.core.secondary.Model;
 
 public interface Context {	
 	//Integer contextID = 

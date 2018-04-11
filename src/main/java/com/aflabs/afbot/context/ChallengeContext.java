@@ -3,8 +3,8 @@ package com.aflabs.afbot.context;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.aflabs.afbot.core.Challenge;
-import com.aflabs.afbot.core.Model;
+import com.aflabs.hubot.core.secondary.Challenge;
+import com.aflabs.hubot.core.secondary.Model;
 
 public interface ChallengeContext extends Context{
 	
