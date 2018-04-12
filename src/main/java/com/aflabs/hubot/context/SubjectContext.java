@@ -13,11 +13,18 @@ public class SubjectContext extends Context implements ISubjectContext{
 	
 	public SubjectContext(String name, String description) {
 		super(name, description);
+		loadInstincts();
+		loadBeliefs();
+		loadAssumptions();
+		loadKnowledge();
+		loadPatterns();
+		loadFacts();
+		loadStereotypes();
 	}
 	
 	@Override
 	public String toString() {
-		return "SubjectContext: [" + super.toString()+ "]";
+		return "SubjectContext: [" + super.toString()+ "]" + instincts.size();
 	}
 
 	public static void main(String[] args) {
@@ -26,7 +33,9 @@ public class SubjectContext extends Context implements ISubjectContext{
 	}
 	
 	public void loadInstincts() {
-		
+		instincts.add(30);
+		instincts.add("Test");
+		instincts.add(2.345);
 	}
 	public void loadBeliefs() {
 		
