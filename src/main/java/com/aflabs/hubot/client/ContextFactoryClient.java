@@ -11,8 +11,7 @@ public class ContextFactoryClient {
 	
 	private static Context context;
 	
-	  public static void main(String[] args)
-	  {	    
+	public static void main(String[] args){	    
 	    context = ContextFactory.createDomainContext("SubjectContext", "SC", "SC Desc");	    
 	    logger.info(context);	   
 	    
@@ -21,5 +20,5 @@ public class ContextFactoryClient {
 	    
 	    context = ContextFactory.createDomainContext("OmnijectContext", "OMC", "OMC Desc");	    
 	    logger.info(context);
-	  }
+	}
 }

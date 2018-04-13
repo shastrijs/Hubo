@@ -44,19 +44,16 @@ public class SubjectEntity extends Entity implements ISubjectEntity{
 
 	@Override
 	public void birth() {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void death() {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void burnEnergy() {
-		// TODO Auto-generated method stub
 		
 	}
 	

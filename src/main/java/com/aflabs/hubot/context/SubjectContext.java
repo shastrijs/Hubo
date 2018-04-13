@@ -24,7 +24,7 @@ public class SubjectContext extends Context implements ISubjectContext{
 	
 	@Override
 	public String toString() {
-		return "SubjectContext: [" + super.toString()+ "]" + instincts.size();
+		return "SubjectContext: [" + super.toString()+ "]" + instincts;
 	}
 
 	public static void main(String[] args) {
