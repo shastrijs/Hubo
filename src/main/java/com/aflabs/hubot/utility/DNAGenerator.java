@@ -1,6 +1,6 @@
 package com.aflabs.hubot.utility;
 
-import com.aflabs.hubot.subject.aspects.DNA;
+import com.aflabs.hubot.omniject.aspects.DNA;
 
 public class DNAGenerator {
 

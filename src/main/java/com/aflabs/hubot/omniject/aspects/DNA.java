@@ -1,4 +1,4 @@
-package com.aflabs.hubot.subject.aspects;
+package com.aflabs.hubot.omniject.aspects;
 
 public class DNA {
 	
