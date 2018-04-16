@@ -8,6 +8,7 @@ public class BirthDetails {
 	Instinct[] birthTimeInstincts; 
 	//Survival [Fear, Anger, Sustain HeartRate and vitals in general, ]
 	//Perception [inputs from non-self] (of threats), 
+	
 	//Expression [outputs from Self, play/imitation/constructiveness, love/affection, shyness/sociability/Relationships]
 	//Abstraction [Used for both Perception/Expression, generalization, Specificity]
 	//Reflection [modesty/sympathy]
