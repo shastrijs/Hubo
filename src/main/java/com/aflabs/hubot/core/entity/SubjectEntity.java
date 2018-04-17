@@ -23,7 +23,7 @@ public class SubjectEntity extends Entity implements ISubjectEntity{
 	//Measuring instinct
 	//Top down and Bottoms up instincts
 	
-	private static Logger logger = Logger.getLogger("com.aflabs.hubot.entity.SubjectEntity");
+	private static Logger logger = Logger.getLogger("com.aflabs.hubot.core.entity.SubjectEntity");
 
 	public SubjectEntity() {}
 	

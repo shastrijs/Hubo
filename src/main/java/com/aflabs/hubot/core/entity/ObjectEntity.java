@@ -11,7 +11,7 @@ public class ObjectEntity extends Entity {
 	boolean living = false;
 	//Measurable attributes - part of Object DNA?
 	
-	private static Logger logger = Logger.getLogger("com.aflabs.hubot.entity.ObjectEntity");
+	private static Logger logger = Logger.getLogger("com.aflabs.hubot.core.entity.ObjectEntity");
 
 	public ObjectEntity() {}
 	

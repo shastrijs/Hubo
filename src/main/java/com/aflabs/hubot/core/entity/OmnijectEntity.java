@@ -8,7 +8,7 @@ import com.aflabs.hubot.core.utility.DNAGenerator;
 
 public class OmnijectEntity extends Entity {
 	
-	private static Logger logger = Logger.getLogger("com.aflabs.hubot.entity.OmnijectEntity");
+	private static Logger logger = Logger.getLogger("com.aflabs.hubot.core.entity.OmnijectEntity");
 
 	public OmnijectEntity() {}
 
