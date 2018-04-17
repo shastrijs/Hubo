@@ -1,7 +1,7 @@
 package com.aflabs.hubot.core.primary;
 
+import com.aflabs.hubot.core.omniject.aspects.DNA;
 import com.aflabs.hubot.core.primary.behavior.IEntity;
-import com.aflabs.hubot.omniject.aspects.DNA;
 
 public abstract class Entity extends SuperEntity implements IEntity{	
 	
