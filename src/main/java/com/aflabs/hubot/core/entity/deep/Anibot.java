@@ -1,8 +1,6 @@
-package com.aflabs.hubot.core.entity.two;
+package com.aflabs.hubot.core.entity.deep;
 
 import org.apache.log4j.Logger;
-
-import com.aflabs.hubot.core.entity.one.AnimateSubjectEntity;
 
 public class Anibot extends AnimateSubjectEntity {
 	

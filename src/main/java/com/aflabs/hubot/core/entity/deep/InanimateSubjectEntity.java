@@ -1,4 +1,4 @@
-package com.aflabs.hubot.core.entity.one;
+package com.aflabs.hubot.core.entity.deep;
 
 import org.apache.log4j.Logger;
 

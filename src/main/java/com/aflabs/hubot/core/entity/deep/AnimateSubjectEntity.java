@@ -1,9 +1,9 @@
-package com.aflabs.hubot.core.entity.one;
+package com.aflabs.hubot.core.entity.deep;
 
 import org.apache.log4j.Logger;
 
 import com.aflabs.hubot.core.entity.SubjectEntity;
-import com.aflabs.hubot.core.entity.one.behavior.IAnimateSubjectEntity;
+import com.aflabs.hubot.core.entity.deep.behavior.IAnimateSubjectEntity;
 
 public class AnimateSubjectEntity extends SubjectEntity implements IAnimateSubjectEntity{
 	
