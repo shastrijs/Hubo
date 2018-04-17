@@ -3,7 +3,7 @@ package com.aflabs.hubot.core.context;
 import org.apache.log4j.Logger;
 
 import com.aflabs.hubot.core.context.behavior.IOmnijectContext;
-import com.aflabs.hubot.core.primary.Context;
+import com.aflabs.hubot.core.top.Context;
 
 public class OmnijectContext extends Context implements IOmnijectContext{
 	

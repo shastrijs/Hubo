@@ -1,7 +1,7 @@
 package com.aflabs.hubot.core.event;
 
 import com.aflabs.hubot.core.event.behavior.IObjectEvent;
-import com.aflabs.hubot.core.primary.Event;
+import com.aflabs.hubot.core.top.Event;
 
 public class ObjectEvent extends Event implements IObjectEvent{
 

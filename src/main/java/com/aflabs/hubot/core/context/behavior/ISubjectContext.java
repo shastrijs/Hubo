@@ -3,7 +3,7 @@ package com.aflabs.hubot.core.context.behavior;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.aflabs.hubot.core.primary.behavior.IContext;
+import com.aflabs.hubot.core.top.behavior.IContext;
 
 public interface ISubjectContext extends IContext {
 	

@@ -2,8 +2,8 @@ package com.aflabs.hubot.core.client;
 
 import org.apache.log4j.Logger;
 
-import com.aflabs.hubot.core.common.ContextFactory;
-import com.aflabs.hubot.core.primary.Context;
+import com.aflabs.hubot.core.creator.ContextFactory;
+import com.aflabs.hubot.core.top.Context;
 
 public class ContextFactoryClient {
 	

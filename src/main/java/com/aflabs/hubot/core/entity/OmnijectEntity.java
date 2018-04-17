@@ -2,8 +2,8 @@ package com.aflabs.hubot.core.entity;
 
 import org.apache.log4j.Logger;
 
-import com.aflabs.hubot.core.primary.Entity;
-import com.aflabs.hubot.core.primary.Event;
+import com.aflabs.hubot.core.top.Entity;
+import com.aflabs.hubot.core.top.Event;
 import com.aflabs.hubot.core.utility.DNAGenerator;
 
 public class OmnijectEntity extends Entity {
