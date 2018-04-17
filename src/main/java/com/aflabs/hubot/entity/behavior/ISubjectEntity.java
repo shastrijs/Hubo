@@ -1,6 +1,6 @@
 package com.aflabs.hubot.entity.behavior;
 
-import com.aflabs.hubot.core.behavior.IEntity;
+import com.aflabs.hubot.core.primary.behavior.IEntity;
 
 public interface ISubjectEntity extends IEntity {
 	

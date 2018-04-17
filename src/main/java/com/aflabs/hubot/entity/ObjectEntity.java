@@ -2,8 +2,8 @@ package com.aflabs.hubot.entity;
 
 import org.apache.log4j.Logger;
 
-import com.aflabs.hubot.core.Entity;
-import com.aflabs.hubot.core.Event;
+import com.aflabs.hubot.core.primary.Entity;
+import com.aflabs.hubot.core.primary.Event;
 import com.aflabs.hubot.utility.DNAGenerator;
 
 public class ObjectEntity extends Entity {

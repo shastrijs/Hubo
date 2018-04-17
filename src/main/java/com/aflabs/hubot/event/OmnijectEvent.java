@@ -1,6 +1,6 @@
 package com.aflabs.hubot.event;
 
-import com.aflabs.hubot.core.Event;
+import com.aflabs.hubot.core.primary.Event;
 import com.aflabs.hubot.event.behavior.IOmnijectEvent;
 
 public class OmnijectEvent extends Event implements IOmnijectEvent{

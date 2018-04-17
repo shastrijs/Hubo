@@ -1,6 +1,6 @@
 package com.aflabs.hubot.rules;
 
-import com.aflabs.hubot.core.Rules;
+import com.aflabs.hubot.core.primary.Rules;
 
 public class SubjectRules extends Rules {
 

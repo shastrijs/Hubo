@@ -1,6 +1,6 @@
 package com.aflabs.hubot.context.behavior;
 
-import com.aflabs.hubot.core.behavior.IContext;
+import com.aflabs.hubot.core.primary.behavior.IContext;
 
 public interface IObjectContext extends IContext {
 	

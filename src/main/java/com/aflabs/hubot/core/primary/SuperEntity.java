@@ -1,4 +1,4 @@
-package com.aflabs.hubot.core;
+package com.aflabs.hubot.core.primary;
 
 public class SuperEntity {	
 	String name;

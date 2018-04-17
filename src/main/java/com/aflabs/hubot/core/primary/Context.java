@@ -1,6 +1,6 @@
-package com.aflabs.hubot.core;
+package com.aflabs.hubot.core.primary;
 
-import com.aflabs.hubot.core.behavior.IContext;
+import com.aflabs.hubot.core.primary.behavior.IContext;
 
 public class Context extends SuperEntity implements IContext{
 	

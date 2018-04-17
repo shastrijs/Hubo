@@ -1,6 +1,6 @@
-package com.aflabs.hubot.core;
+package com.aflabs.hubot.core.primary;
 
-import com.aflabs.hubot.core.behavior.IEvent;
+import com.aflabs.hubot.core.primary.behavior.IEvent;
 
 public class Event extends SuperEntity implements IEvent{	
 	

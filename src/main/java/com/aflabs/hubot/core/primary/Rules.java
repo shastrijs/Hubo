@@ -1,6 +1,6 @@
-package com.aflabs.hubot.core;
+package com.aflabs.hubot.core.primary;
 
-import com.aflabs.hubot.core.behavior.IRules;
+import com.aflabs.hubot.core.primary.behavior.IRules;
 
 public class Rules extends SuperEntity implements IRules{
 

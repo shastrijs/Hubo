@@ -3,7 +3,7 @@ package com.aflabs.hubot.common;
 import com.aflabs.hubot.context.ObjectContext;
 import com.aflabs.hubot.context.OmnijectContext;
 import com.aflabs.hubot.context.SubjectContext;
-import com.aflabs.hubot.core.Context;
+import com.aflabs.hubot.core.primary.Context;
 
 public class ContextFactory {
 	

@@ -3,7 +3,7 @@ package com.aflabs.hubot.client;
 import org.apache.log4j.Logger;
 
 import com.aflabs.hubot.common.ContextFactory;
-import com.aflabs.hubot.core.Context;
+import com.aflabs.hubot.core.primary.Context;
 
 public class ContextFactoryClient {
 	

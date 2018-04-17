@@ -3,7 +3,7 @@ package com.aflabs.hubot.context;
 import org.apache.log4j.Logger;
 
 import com.aflabs.hubot.context.behavior.ISubjectContext;
-import com.aflabs.hubot.core.Context;
+import com.aflabs.hubot.core.primary.Context;
 
 public class SubjectContext extends Context implements ISubjectContext{
 
