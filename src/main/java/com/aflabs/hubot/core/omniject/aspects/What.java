@@ -1,4 +1,4 @@
-package com.aflabs.hubot.core.concepts.deep;
+package com.aflabs.hubot.core.omniject.aspects;
 
 import java.util.Collection;
 

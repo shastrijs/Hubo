@@ -80,59 +80,43 @@
       <artifactId>metadata-extractor</artifactId>
       <version>2.11.0</version>
     </dependency>
-  </dependencies>
-  
+  </dependencies>  
   <!-- get a single jar by doing a 
         mvn clean compile assembly:single 
   -->
-  
   <build>
     <!--pluginManagement-->
       <plugins>
       	<plugin>
-	        <artifactId>maven-compiler-plugin</artifactId>
-	        <version>3.1</version>
-	        <configuration>
-	          <source>1.7</source>
-	          <target>1.7</target>
-	        </configuration>
+	        	<artifactId>maven-compiler-plugin</artifactId>
+	        	<version>3.1</version>
+	        	<configuration>
+	          		<source>1.7</source>
+	          		<target>1.7</target>
+	        	</configuration>
 	    </plugin>
         <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-surefire-plugin</artifactId>
-          <version>2.19</version>
+          		<groupId>org.apache.maven.plugins</groupId>
+          		<artifactId>maven-surefire-plugin</artifactId>
+          		<version>2.19</version>
         </plugin>
-        <!-- jar with main class set -->       
-           <!-- <plugin>
-              <artifactId>maven-assembly-plugin</artifactId>
-              <configuration>
-                  <archive>
-                      <manifest>
-                          <addClasspath>true</addClasspath>
-                          <mainClass>com.aflabs.hubot.core.client.ContextFactoryClient</mainClass>
-                      </manifest>
-                  </archive>
-                  <descriptorRefs>
-                      <descriptorRef>jar-with-dependencies</descriptorRef>
-                  </descriptorRefs>
-              </configuration>
-              <executions>
-                  <execution>
-                      <id>make-my-jar-with-dependencies</id>
-                      <phase>package</phase>
-                      <goals>
-                          <goal>single</goal>
-                      </goals>
-                  </execution>
-              </executions>
-          </plugin> -->
-          
-          
-          <plugin>
+        <!-- jar with main class set --> 
+        <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>com.aflabs.hubot.core.client.ContextFactoryClient</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+		</plugin>
+        <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>make-assembly1</id>
+                        <id>Hubot-Core-Assembly</id>
                         <phase>package</phase>
                         <goals>
                             <goal>single</goal>
@@ -147,12 +131,12 @@
 			                <descriptorRefs>
 			                      <descriptorRef>jar-with-dependencies</descriptorRef>
 			                </descriptorRefs>
-                            <finalName>CoreOnly</finalName>
+                            <finalName>HubotCore</finalName>
                             <appendAssemblyId>false</appendAssemblyId>
                         </configuration>
                     </execution>
                     <execution>
-                        <id>make-assembly2</id>
+                        <id>Hubot-Ext-Assembly</id>
                         <phase>package</phase>
                         <goals>
                             <goal>single</goal>
@@ -161,33 +145,28 @@
                             <archive>
 			                      <manifest>
 			                          <addClasspath>true</addClasspath>
-			                          <mainClass>com.aflabs.hubot.core.client.ContextFactoryClient</mainClass>
+			                          <mainClass>com.aflabs.hubot.ext.arithmatic.AflabsNumber</mainClass>
 			                      </manifest>
 			                </archive>
 			                <descriptorRefs>
 			                      <descriptorRef>jar-with-dependencies</descriptorRef>
 			                </descriptorRefs>
-                            <finalName>ExtOnly</finalName>
+                            <finalName>HubotExt</finalName>
                             <appendAssemblyId>false</appendAssemblyId>
                         </configuration>
                     </execution>
                 </executions>
-            </plugin> 
+          </plugin> 
       </plugins>
     <!--/pluginManagement-->
     <!-- include the resource bundles -->
-  <resources>
-    <resource>
-      <directory>src/main/java</directory>
-      <excludes>
-      		<exclude>**/*.java</exclude>
-      		<exclude>**/afbot/*.*</exclude>
-      </excludes>      
-    </resource>
-    <resource>
-      <directory>src/main/resources</directory>
-      <!-- <excludes><exclude>**/*.java</exclude></excludes> -->
-    </resource>
-  </resources>
+	  <resources>
+	    	<resource>
+	      		<directory>src/main/java</directory>
+	      		<excludes>
+	      			<exclude>**/*.java</exclude>      		
+	      		</excludes>      
+	    	</resource>    
+	  </resources>
   </build>
 </project>

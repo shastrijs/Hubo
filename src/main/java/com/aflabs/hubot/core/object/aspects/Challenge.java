@@ -1,4 +1,4 @@
-package com.aflabs.hubot.core.concepts;
+package com.aflabs.hubot.core.object.aspects;
 
 import java.util.ArrayList;
 import java.util.List;

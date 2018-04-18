@@ -1,5 +1,7 @@
 package com.aflabs.hubot.core.subject.aspects;
 
+import com.aflabs.hubot.core.omniject.aspects.LocationTimeSpace;
+
 public class BirthDetails {	
 	
 	Parents parents;	

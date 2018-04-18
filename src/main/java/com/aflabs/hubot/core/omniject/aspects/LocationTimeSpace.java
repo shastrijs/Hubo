@@ -1,4 +1,4 @@
-package com.aflabs.hubot.core.subject.aspects;
+package com.aflabs.hubot.core.omniject.aspects;
 
 public class LocationTimeSpace {
 	
