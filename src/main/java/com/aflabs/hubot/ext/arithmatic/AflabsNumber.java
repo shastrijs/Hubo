@@ -14,7 +14,7 @@ public class AflabsNumber {
 	public boolean isZero;
 	public boolean isNegative;
 	public boolean isReal;
-	public boolean isRational;
+	public boolean isRational; //If true, then the number is Rational. If false, dont know...
 	public boolean isEven;
 	
 	public boolean implicationsDrawn = false;
@@ -84,13 +84,17 @@ public class AflabsNumber {
 		num = new AflabsNumber(new Fraction(1234.4567));
 		num = new AflabsNumber(new Fraction(1234));		
 		num = new AflabsNumber(-1234.4567);		
-//		num = new AflabsNumber(0.4567);		
-//		num = new AflabsNumber(new Fraction(1,-3));	
-//		num = new AflabsNumber("16/8");		
-//		num = new AflabsNumber(new Fraction(Math.sqrt(2)));
+		num = new AflabsNumber(0.4567);		
+		num = new AflabsNumber(new Fraction(1,-3));	
+		num = new AflabsNumber("16/8");		
+		num = new AflabsNumber(new Fraction(Math.sqrt(2)));
+		num = new AflabsNumber(Math.sqrt(2));
+		num = new AflabsNumber(new Fraction(Math.sqrt(3),2));
+		num = new AflabsNumber(Math.PI);
+		num = new AflabsNumber(Math.E);
 		
-		System.out.println("Int val : " + num.getFloorInt());
-		System.out.println("Int val : " + num.getDecimalValue());
+		//System.out.println("Int val : " + num.getFloorInt());
+		//System.out.println("Int val : " + num.getDecimalValue());
 		
 //		AflabsNumber num1 = new AflabsNumber(3/2);
 //		System.out.println("num.number.doubleValue() : " + num1.origNumber.doubleValue());
